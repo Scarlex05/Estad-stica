@@ -1,0 +1,17 @@
+
+library(dplyr)
+# parte1 ----
+suma <- function(a,b) {return(a+b)}
+
+y <- c(2,3)
+y <-  list(2,3)
+
+
+
+y |>  sum()
+y |> sum(2,3)
+y |> suma(2,3)
+
+## parte 1.1 ----
+print(suma(2,3))
+
